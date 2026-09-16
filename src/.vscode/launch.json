@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug program1 (OpenCV)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/program1",
+      "program": "${workspaceFolder}/program1/build/Debug/program1.exe",
+      "console": "integratedTerminal",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "D:/opencv/opencv/build/x64/vc16/bin;${env:PATH}"
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "d:/learn/Opencv/src/program1",
+      "program": "d:/learn/Opencv/src/program1/build/Debug/outDebug"
+    }
+  ]
+}

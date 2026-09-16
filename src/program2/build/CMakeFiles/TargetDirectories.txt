@@ -1,0 +1,3 @@
+D:/learn/Opencv/src/program2/build/CMakeFiles/program2.dir
+D:/learn/Opencv/src/program2/build/CMakeFiles/ALL_BUILD.dir
+D:/learn/Opencv/src/program2/build/CMakeFiles/ZERO_CHECK.dir

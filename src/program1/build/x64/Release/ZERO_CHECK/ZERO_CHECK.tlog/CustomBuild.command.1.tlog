@@ -1,0 +1,10 @@
+^D:\LEARN\OPENCV\SRC\PROGRAM1\BUILD\CMAKEFILES\C924129B75135FDFE3DA0B2E9FEFD574\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/learn/Opencv/src/program1 -BD:/learn/Opencv/src/program1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/learn/Opencv/src/program1/build/OpenCVTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
